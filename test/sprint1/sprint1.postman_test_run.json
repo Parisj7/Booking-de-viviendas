@@ -1,0 +1,1424 @@
+{
+	"id": "921b6ffc-7b5a-4455-8a5d-e3e1ffac916f",
+	"name": "B4",
+	"timestamp": "2021-10-28T01:56:36.507Z",
+	"collection_id": "16594343-8f6a53ec-db77-4f0f-93ee-bb4ea2ead09e",
+	"folder_id": 0,
+	"environment_id": "f0660f02-3e7b-4eae-b1fe-0451ba8172b8",
+	"totalPass": 76,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f97d6260-8123-457b-9532-cfcb2c58d649",
+			"name": "AlquilerGet1",
+			"url": "http://localhost:8080/api/alquiler/71",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "f682761a-c675-45d9-a89c-566752278b4c",
+			"name": "AlquilerGetAll",
+			"url": "http://localhost:8080/api/alquiler/",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "8e9d7cc7-e428-4ad6-bc41-15a224f5969b",
+			"name": "AlquilerPost",
+			"url": "http://localhost:8080/api/alquiler/",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "fe6780fe-b0f8-478f-9ba6-54f8776f9928",
+			"name": "AlquilerPut",
+			"url": "http://localhost:8080/api/alquiler/72",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "30a78e4f-c830-4ab6-be91-af3a703e92ba",
+			"name": "AlquilerDelete",
+			"url": "http://localhost:8080/api/alquiler/76",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "56acbbf1-0983-49ec-99b7-38eac8576fa9",
+			"name": "CategoriaGet1",
+			"url": "http://localhost:8080/api/categoria/1",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "f332006f-49be-48a7-8a38-fac5443c7730",
+			"name": "CategoriaGetAll",
+			"url": "http://localhost:8080/api/categoria/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5dafd66a-d546-4fe2-99d5-be23832ee91e",
+			"name": "CategoriaPost",
+			"url": "http://localhost:8080/api/categoria/",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "f46fe3fe-23da-4aa9-aeba-ac372bf0bfa0",
+			"name": "CategoriaPut",
+			"url": "http://localhost:8080/api/categoria/2",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "57365cbb-fcc4-46ee-985c-bcc0d4617d1e",
+			"name": "CategoriaDelete",
+			"url": "http://localhost:8080/api/categoria/4",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "fe25d226-cd46-4a82-ad77-e75a6acb29af",
+			"name": "ImagenesGet1",
+			"url": "http://localhost:8080/api/imagenes/61",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "c738aa9e-410e-4975-a314-5fe4a68c0e12",
+			"name": "ImagenesGetAll",
+			"url": "http://localhost:8080/api/imagenes/",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "d66afbc6-528d-495e-82a0-38ce4cff9f28",
+			"name": "ImagenesPost",
+			"url": "http://localhost:8080/api/imagenes/",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5c33983d-c98a-4425-8a3e-3a8dfbad64d8",
+			"name": "ImagenesPut",
+			"url": "http://localhost:8080/api/imagenes/62",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "e74651fc-212e-4376-8636-2179f78930f0",
+			"name": "ImagenesDelete",
+			"url": "http://localhost:8080/api/imagenes/66",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "9d1e087c-eec3-4b52-8fe7-15c522e10d67",
+			"name": "InmueblesGet1",
+			"url": "http://localhost:8080/api/inmuebles/51",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "fd5ef3e2-54e5-41e5-9303-37ae059296f2",
+			"name": "InmueblesGetAll",
+			"url": "http://localhost:8080/api/inmuebles/",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "9c32933b-1c67-4ac3-98a6-1553b3d1ad1b",
+			"name": "InmueblesPost",
+			"url": "http://localhost:8080/api/inmuebles/",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "7a8bc239-b224-4825-a1e8-f4159dc3b960",
+			"name": "InmueblesPut",
+			"url": "http://localhost:8080/api/inmuebles/52",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "285cbf39-ba45-4500-ad67-016f62763212",
+			"name": "InmueblesDelete",
+			"url": "http://localhost:8080/api/inmuebles/56",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "72c1840d-04a2-4725-aecf-e5f09bd0bb20",
+			"name": "ServicioGet1",
+			"url": "http://localhost:8080/api/servicio/11",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "81430dbf-606c-43f7-8380-0afa01261f57",
+			"name": "ServicioGetAll",
+			"url": "http://localhost:8080/api/servicio/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "bda21987-345a-4cff-9881-a00cd0c61fd1",
+			"name": "ServicioPost",
+			"url": "http://localhost:8080/api/servicio/",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "108991f4-e056-4499-b010-0c70a6e68d8e",
+			"name": "ServicioPut",
+			"url": "http://localhost:8080/api/servicio/13",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "1711c05e-161c-4647-b5ff-bb042147eec2",
+			"name": "ServicioDelete",
+			"url": "http://localhost:8080/api/servicio/15",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "77f15a54-2686-474f-8d8f-6d9e21f2aeb3",
+			"name": "TarjetaGet1",
+			"url": "http://localhost:8080/api/tarjetas/41",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "9b0217ec-203d-45b0-a9ac-d527c4fd2b68",
+			"name": "TarjetaGetAll",
+			"url": "http://localhost:8080/api/tarjetas/",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "8a59bdc5-f03d-488e-9422-ece0987ba4d2",
+			"name": "TarjetaPost",
+			"url": "http://localhost:8080/api/tarjetas/",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "da166fc7-5f1e-4309-82d6-82d912114a35",
+			"name": "TarjetaPut",
+			"url": "http://localhost:8080/api/tarjetas/42",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "48c15264-9cd6-449f-a47a-0d9825538e06",
+			"name": "TarjetaDelete",
+			"url": "http://localhost:8080/api/tarjetas/45",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "e07ff8d9-73b5-4156-b30c-66bdf988847f",
+			"name": "TipoUsuarioGetAll",
+			"url": "http://localhost:8080/api/tipoUsuarios/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "be2db3d8-df90-4254-9755-372843af699a",
+			"name": "TipoUsuarioPost",
+			"url": "http://localhost:8080/api/tipoUsuarios/",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5ae17169-8b9b-4a27-9a28-0958fefa9b41",
+			"name": "TipoUsuarioDelete",
+			"url": "http://localhost:8080/api/tipoUsuarios/27",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "7f09a033-da69-4b49-8860-7d71d40515f3",
+			"name": "UsuarioGet1",
+			"url": "http://localhost:8080/api/usuarios/32",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "ba55bf2c-2ba3-4b6c-b530-da155e02a2e7",
+			"name": "UsuarioGetAll",
+			"url": "http://localhost:8080/api/usuarios/",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "57563a7a-7a8a-4e21-b7a7-fd22a9a06f8a",
+			"name": "UsuarioPost",
+			"url": "http://localhost:8080/api/usuarios/",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "c08bda23-7f77-4d1a-8740-6eaca9db6596",
+			"name": "UsuarioPut",
+			"url": "http://localhost:8080/api/usuarios/32",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "9467b49d-8490-460c-bbde-cc538bab26a5",
+			"name": "Delete",
+			"url": "http://localhost:8080/api/usuarios/37",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 382,
+	"collection": {
+		"requests": [
+			{
+				"id": "f97d6260-8123-457b-9532-cfcb2c58d649",
+				"method": "GET"
+			},
+			{
+				"id": "f682761a-c675-45d9-a89c-566752278b4c",
+				"method": "GET"
+			},
+			{
+				"id": "8e9d7cc7-e428-4ad6-bc41-15a224f5969b",
+				"method": "POST"
+			},
+			{
+				"id": "fe6780fe-b0f8-478f-9ba6-54f8776f9928",
+				"method": "PUT"
+			},
+			{
+				"id": "30a78e4f-c830-4ab6-be91-af3a703e92ba",
+				"method": "DELETE"
+			},
+			{
+				"id": "56acbbf1-0983-49ec-99b7-38eac8576fa9",
+				"method": "GET"
+			},
+			{
+				"id": "f332006f-49be-48a7-8a38-fac5443c7730",
+				"method": "GET"
+			},
+			{
+				"id": "5dafd66a-d546-4fe2-99d5-be23832ee91e",
+				"method": "POST"
+			},
+			{
+				"id": "f46fe3fe-23da-4aa9-aeba-ac372bf0bfa0",
+				"method": "PUT"
+			},
+			{
+				"id": "57365cbb-fcc4-46ee-985c-bcc0d4617d1e",
+				"method": "DELETE"
+			},
+			{
+				"id": "fe25d226-cd46-4a82-ad77-e75a6acb29af",
+				"method": "GET"
+			},
+			{
+				"id": "c738aa9e-410e-4975-a314-5fe4a68c0e12",
+				"method": "GET"
+			},
+			{
+				"id": "d66afbc6-528d-495e-82a0-38ce4cff9f28",
+				"method": "POST"
+			},
+			{
+				"id": "5c33983d-c98a-4425-8a3e-3a8dfbad64d8",
+				"method": "PUT"
+			},
+			{
+				"id": "e74651fc-212e-4376-8636-2179f78930f0",
+				"method": "DELETE"
+			},
+			{
+				"id": "9d1e087c-eec3-4b52-8fe7-15c522e10d67",
+				"method": "GET"
+			},
+			{
+				"id": "fd5ef3e2-54e5-41e5-9303-37ae059296f2",
+				"method": "GET"
+			},
+			{
+				"id": "9c32933b-1c67-4ac3-98a6-1553b3d1ad1b",
+				"method": "POST"
+			},
+			{
+				"id": "7a8bc239-b224-4825-a1e8-f4159dc3b960",
+				"method": "PUT"
+			},
+			{
+				"id": "285cbf39-ba45-4500-ad67-016f62763212",
+				"method": "DELETE"
+			},
+			{
+				"id": "72c1840d-04a2-4725-aecf-e5f09bd0bb20",
+				"method": "GET"
+			},
+			{
+				"id": "81430dbf-606c-43f7-8380-0afa01261f57",
+				"method": "GET"
+			},
+			{
+				"id": "bda21987-345a-4cff-9881-a00cd0c61fd1",
+				"method": "POST"
+			},
+			{
+				"id": "108991f4-e056-4499-b010-0c70a6e68d8e",
+				"method": "PUT"
+			},
+			{
+				"id": "1711c05e-161c-4647-b5ff-bb042147eec2",
+				"method": "DELETE"
+			},
+			{
+				"id": "77f15a54-2686-474f-8d8f-6d9e21f2aeb3",
+				"method": "GET"
+			},
+			{
+				"id": "9b0217ec-203d-45b0-a9ac-d527c4fd2b68",
+				"method": "GET"
+			},
+			{
+				"id": "8a59bdc5-f03d-488e-9422-ece0987ba4d2",
+				"method": "POST"
+			},
+			{
+				"id": "da166fc7-5f1e-4309-82d6-82d912114a35",
+				"method": "PUT"
+			},
+			{
+				"id": "48c15264-9cd6-449f-a47a-0d9825538e06",
+				"method": "DELETE"
+			},
+			{
+				"id": "e07ff8d9-73b5-4156-b30c-66bdf988847f",
+				"method": "GET"
+			},
+			{
+				"id": "be2db3d8-df90-4254-9755-372843af699a",
+				"method": "POST"
+			},
+			{
+				"id": "5ae17169-8b9b-4a27-9a28-0958fefa9b41",
+				"method": "DELETE"
+			},
+			{
+				"id": "7f09a033-da69-4b49-8860-7d71d40515f3",
+				"method": "GET"
+			},
+			{
+				"id": "ba55bf2c-2ba3-4b6c-b530-da155e02a2e7",
+				"method": "GET"
+			},
+			{
+				"id": "57563a7a-7a8a-4e21-b7a7-fd22a9a06f8a",
+				"method": "POST"
+			},
+			{
+				"id": "c08bda23-7f77-4d1a-8740-6eaca9db6596",
+				"method": "PUT"
+			},
+			{
+				"id": "9467b49d-8490-460c-bbde-cc538bab26a5",
+				"method": "DELETE"
+			}
+		]
+	}
+}

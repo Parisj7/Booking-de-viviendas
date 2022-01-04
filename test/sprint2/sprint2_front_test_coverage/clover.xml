@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1636657298391" clover="3.2.0">
+  <project timestamp="1636657298391" name="All files">
+    <metrics statements="332" coveredstatements="246" conditionals="145" coveredconditionals="67" methods="132" coveredmethods="83" elements="609" coveredelements="396" complexity="0" loc="332" ncloc="332" packages="35" files="44" classes="44"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\App.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Buscador">
+      <metrics statements="39" coveredstatements="30" conditionals="6" coveredconditionals="1" methods="17" coveredmethods="12"/>
+      <file name="Buscador.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Buscador\Buscador.jsx">
+        <metrics statements="25" coveredstatements="19" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+      </file>
+      <file name="SelectCiudad.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Buscador\SelectCiudad.jsx">
+        <metrics statements="14" coveredstatements="11" conditionals="4" coveredconditionals="1" methods="11" coveredmethods="8"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Card">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Card.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Card\Card.jsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.CardCategoria">
+      <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="CardCategoria.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\CardCategoria\CardCategoria.jsx">
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.CardList">
+      <metrics statements="2" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="CardList.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\CardList\CardList.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.CategoriaList">
+      <metrics statements="14" coveredstatements="8" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="3"/>
+      <file name="CategoriaList.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\CategoriaList\CategoriaList.jsx">
+        <metrics statements="14" coveredstatements="8" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="3"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Error">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Error.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Error\Error.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.FavHeart">
+      <metrics statements="7" coveredstatements="5" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="1"/>
+      <file name="FavHeart.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\FavHeart\FavHeart.jsx">
+        <metrics statements="7" coveredstatements="5" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Footer">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Footer.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Footer\Footer.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Header">
+      <metrics statements="7" coveredstatements="4" conditionals="20" coveredconditionals="13" methods="4" coveredmethods="1"/>
+      <file name="Header.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Header\Header.jsx">
+        <metrics statements="7" coveredstatements="4" conditionals="20" coveredconditionals="13" methods="4" coveredmethods="1"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.LayoutGeneral">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LayoutGeneral.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\LayoutGeneral\LayoutGeneral.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.LoadingBar">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LoadingBar.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\LoadingBar\LoadingBar.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Login">
+      <metrics statements="20" coveredstatements="14" conditionals="22" coveredconditionals="9" methods="5" coveredmethods="3"/>
+      <file name="Login.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Login\Login.jsx">
+        <metrics statements="20" coveredstatements="14" conditionals="22" coveredconditionals="9" methods="5" coveredmethods="3"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Logo">
+      <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Logo.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Logo\Logo.jsx">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Paginador">
+      <metrics statements="7" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <file name="Paginador.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Paginador\Paginador.jsx">
+        <metrics statements="7" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoCaracteristicas">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="ProductoCaracteristicas.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoCaracteristicas\ProductoCaracteristicas.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoDescripcion">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ProductoDescripcion.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoDescripcion\ProductoDescripcion.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoDisponibilidad">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <file name="ProductoDisponibilidad.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoDisponibilidad\ProductoDisponibilidad.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoHeader">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ProductoHeader.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoHeader\ProductoHeader.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoImagenes">
+      <metrics statements="31" coveredstatements="22" conditionals="12" coveredconditionals="5" methods="14" coveredmethods="10"/>
+      <file name="ProductoImagenes.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoImagenes\ProductoImagenes.jsx">
+        <metrics statements="23" coveredstatements="14" conditionals="12" coveredconditionals="5" methods="8" coveredmethods="4"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+      </file>
+      <file name="ProductoImagenesGaleria.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoImagenes\ProductoImagenesGaleria.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+      </file>
+      <file name="ProductoImagenesGaleriaMini.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoImagenes\ProductoImagenesGaleriaMini.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoPoliticas">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ProductoPoliticas.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoPoliticas\ProductoPoliticas.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoSocials">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="ProductoSocials.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoSocials\ProductoSocials.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProductoUbicacion">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ProductoUbicacion.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\ProductoUbicacion\ProductoUbicacion.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.RedesSociales">
+      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="RedesSociales.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\RedesSociales\RedesSociales.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="23" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Registro">
+      <metrics statements="19" coveredstatements="13" conditionals="20" coveredconditionals="9" methods="5" coveredmethods="3"/>
+      <file name="Registro.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\Registro\Registro.jsx">
+        <metrics statements="19" coveredstatements="13" conditionals="20" coveredconditionals="9" methods="5" coveredmethods="3"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="97" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.SaludoRegistrado">
+      <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="SaludoRegistrado.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\components\SaludoRegistrado\SaludoRegistrado.jsx">
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.constants">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\constants\index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="64" coveredstatements="45" conditionals="6" coveredconditionals="2" methods="25" coveredmethods="9"/>
+      <file name="AuthContext.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\context\AuthContext.jsx">
+        <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="2"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="BuscadorContext.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\context\BuscadorContext.jsx">
+        <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+      </file>
+      <file name="FavsContext.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\context\FavsContext.jsx">
+        <metrics statements="22" coveredstatements="11" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="2"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+      <file name="FiltroContext.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\context\FiltroContext.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+      </file>
+      <file name="ProdContext.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\context\ProdContext.jsx">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.customHooks">
+      <metrics statements="16" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="useFetch.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\customHooks\useFetch.jsx">
+        <metrics statements="16" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.FavoritosPage">
+      <metrics statements="19" coveredstatements="11" conditionals="8" coveredconditionals="1" methods="6" coveredmethods="4"/>
+      <file name="FavoritosPage.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\pages\FavoritosPage\FavoritosPage.jsx">
+        <metrics statements="19" coveredstatements="11" conditionals="8" coveredconditionals="1" methods="6" coveredmethods="4"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.HomePage">
+      <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="2"/>
+      <file name="HomePage.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\pages\HomePage\HomePage.jsx">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="2"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.LoginPage">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LoginPage.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\pages\LoginPage\LoginPage.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Producto">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="Producto.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\pages\Producto\Producto.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.RegistroPage">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RegistroPage.jsx" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\pages\RegistroPage\RegistroPage.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <file name="auth.js" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\utils\auth.js">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="favs.js" path="C:\Users\anbra\OneDrive\Desktop\CTD\ProyectoIntegrador\grupo-3\front\src\utils\favs.js">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,979 @@
+{
+	"info": {
+		"_postman_id": "7f744472-68b3-4de7-83ba-19bd2d395fde",
+		"name": "digital_booking_tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Imagenes",
+			"item": [
+				{
+					"name": "CreateImagen",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idImagen\", pm.response.json().idImagen);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"{{$randomProductName}}\",\r\n    \"urlImagen\": \"{{$randomCityImage}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{imagenesUrl}}",
+							"host": [
+								"{{baseUrl}}{{imagenesUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetImagenById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{imagenesUrl}}{{idImagen}}",
+							"host": [
+								"{{baseUrl}}{{imagenesUrl}}{{idImagen}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllImagenes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{imagenesUrl}}",
+							"host": [
+								"{{baseUrl}}{{imagenesUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Politicas",
+			"item": [
+				{
+					"name": "CreatePolitica",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idPolitica\", pm.response.json().idPolitica);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"{{$randomBsNoun}}\",\r\n    \"descripcion\": \"{{$randomWords}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{politicasUrl}}",
+							"host": [
+								"{{baseUrl}}{{politicasUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPoliticaById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{politicasUrl}}{{idPolitica}}",
+							"host": [
+								"{{baseUrl}}{{politicasUrl}}{{idPolitica}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllPoliticas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "file",
+							"file": {}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{politicasUrl}}",
+							"host": [
+								"{{baseUrl}}{{politicasUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ciudades",
+			"item": [
+				{
+					"name": "CreateCiudad",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idCiudad\", pm.response.json().idCiudad);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"{{$randomStreetName}}\",\r\n    \"pais\":\"{{$randomCountry}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{ciudadesUrl}}",
+							"host": [
+								"{{baseUrl}}{{ciudadesUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCiudadById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{ciudadesUrl}}{{idCiudad}}",
+							"host": [
+								"{{baseUrl}}{{ciudadesUrl}}{{idCiudad}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCiudades",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{ciudadesUrl}}",
+							"host": [
+								"{{baseUrl}}{{ciudadesUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Caracteristicas",
+			"item": [
+				{
+					"name": "CreateCaracteristica",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idCaracteristica\", pm.response.json().idCaracteristica);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"{{$randomProduct}}\",\r\n    \"urlIcono\": \"{{$randomImageUrl}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{caracteristicasUrl}}",
+							"host": [
+								"{{baseUrl}}{{caracteristicasUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCaracteristicaById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{caracteristicasUrl}}{{idCaracteristica}}",
+							"host": [
+								"{{baseUrl}}{{caracteristicasUrl}}{{idCaracteristica}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCaracteristicas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{caracteristicasUrl}}",
+							"host": [
+								"{{baseUrl}}{{caracteristicasUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categorias",
+			"item": [
+				{
+					"name": "CreateCategoria",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idCategoria\", pm.response.json().idCategoria);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"{{$randomDepartment}}\",\r\n    \"descripcion\": \"{{$randomInt}} {{$randomDepartment}}\",\r\n    \"urlImagen\": \"{{$randomCityImage}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{categoriasUrl}}",
+							"host": [
+								"{{baseUrl}}{{categoriasUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCategoriaById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{categoriasUrl}}{{idCategoria}}",
+							"host": [
+								"{{baseUrl}}{{categoriasUrl}}{{idCategoria}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCategorias",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{categoriasUrl}}",
+							"host": [
+								"{{baseUrl}}{{categoriasUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BadCreateCategoria",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \" \",\r\n    \"descripcion\": \"{{$randomInt}} {{$randomDepartment}}\",\r\n    \"urlImagen\": \"{{$randomCityImage}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{categoriasUrl}}",
+							"host": [
+								"{{baseUrl}}{{categoriasUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Productos",
+			"item": [
+				{
+					"name": "CreateProducto",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"idProducto\", pm.response.json().idProducto);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"{{$randomProductName}}\",\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"latitud\": \"{{$randomLatitude}}\",\r\n    \"longitud\": \"{{$randomLongitude}}\",\r\n    \"categoria\": {\r\n        \"idCategoria\": {{idCategoria}}\r\n    },\r\n    \"ciudad\": {\r\n        \"idCiudad\": {{idCiudad}}\r\n    },\r\n    \"imagenes\": [\r\n        {\r\n           \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }\r\n    ],\r\n    \"caracteristicas\": [\r\n        {\r\n            \"idCaracteristica\": {{idCaracteristica}}\r\n        }\r\n    ],\r\n    \"politicas\": [\r\n        {\r\n            \"titulo\": \"{{$randomBsNoun}}\",\r\n            \"descripcion\": \"{{$randomWords}}\"\r\n        },\r\n        {\r\n            \"titulo\": \"{{$randomBsNoun}}\",\r\n            \"descripcion\": \"{{$randomWords}}\"\r\n        },\r\n        {\r\n            \"titulo\": \"{{$randomBsNoun}}\",\r\n            \"descripcion\": \"{{$randomWords}}\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductoById",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}{{idProducto}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}{{idProducto}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ModifyProducto",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Your test name\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.nombre).to.eql(\"PRUEBA!\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProducto\": {{idProducto}},\r\n    \"nombre\":\"PRUEBA!\",\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"latitud\": \"{{$randomLatitude}}\",\r\n    \"longitud\": \"{{$randomLongitude}}\",\r\n    \"categoria\": {\r\n        \"idCategoria\": {{idCategoria}}\r\n    },\r\n    \"ciudad\": {\r\n        \"idCiudad\": {{idCiudad}}\r\n    },\r\n    \"imagenes\": [\r\n        {\r\n           \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }, \r\n        {\r\n            \"titulo\": \"{{$randomProductName}}\",\r\n            \"urlImagen\": \"{{$randomCityImage}}\"\r\n        }\r\n    ],\r\n    \"caracteristicas\": [\r\n        {\r\n            \"idCaracteristica\": {{idCaracteristica}}\r\n        }\r\n    ],\r\n    \"politicas\": [\r\n        {\r\n            \"titulo\": \"{{$randomBsNoun}}\",\r\n            \"descripcion\": \"{{$randomWords}}\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}{{idProducto}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}{{idProducto}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductosByCiudadId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}porCiudad/{{idCiudad}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}porCiudad"
+							],
+							"path": [
+								"{{idCiudad}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductosByCategoriaId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}porCategoria/{{idCategoria}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}porCategoria"
+							],
+							"path": [
+								"{{idCategoria}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllProductos",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "delete_data",
+			"item": [
+				{
+					"name": "DeleteImagen",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{imagenesUrl}}{{idImagen}}",
+							"host": [
+								"{{baseUrl}}{{imagenesUrl}}{{idImagen}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletePolitica",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{politicasUrl}}{{idPolitica}}",
+							"host": [
+								"{{baseUrl}}{{politicasUrl}}{{idPolitica}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteProducto",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{productosUrl}}{{idProducto}}",
+							"host": [
+								"{{baseUrl}}{{productosUrl}}{{idProducto}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCaracteristica",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{caracteristicasUrl}}{{idCaracteristica}}",
+							"host": [
+								"{{baseUrl}}{{caracteristicasUrl}}{{idCaracteristica}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCategoria",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{categoriasUrl}}{{idCategoria}}",
+							"host": [
+								"{{baseUrl}}{{categoriasUrl}}{{idCategoria}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCiudad",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{ciudadesUrl}}{{idCiudad}}",
+							"host": [
+								"{{baseUrl}}{{ciudadesUrl}}{{idCiudad}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Avoid Cold Start",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}{{productosUrl}}",
+					"host": [
+						"{{baseUrl}}{{productosUrl}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "idImagen",
+			"value": ""
+		},
+		{
+			"key": "idCiudad",
+			"value": ""
+		},
+		{
+			"key": "idCaracteristica",
+			"value": ""
+		},
+		{
+			"key": "idCategoria",
+			"value": ""
+		},
+		{
+			"key": "idProducto",
+			"value": ""
+		},
+		{
+			"key": "idPolitica",
+			"value": ""
+		}
+	]
+}
